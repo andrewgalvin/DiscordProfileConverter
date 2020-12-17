@@ -1,0 +1,25 @@
+Commands:
+
+-create [bot_name]      (Creates 1 profile for the bot given)
+-convert                (Converts profiles to any bot, given a .csv file)
+-supported              (Lists all currently supported bots)
+-combine [bot_name]     (User sends files [1 at a time] to combine into 1 file for the given bot_name)
+
+What would be used more?
+
+People creating a bot profile for ACO would only need 1 profile.. probably would use -create
+ACO runners would probably use .csv for easy access
+
+Therefore... for ACO providers, if users gave .csv files, they could easily message the bot the .csv file and convert everything into 1 bot or more -combine...
+
+
+How would this help ACO forms?
+
+It would take out user error from filling out forms
+Users would not need to fill out a form, they could simply DM the bot and make the profile
+ACO providers would not have to contact users as the bot would take away any error there is from filling out a form (and there is a lot)
+ACO providers would need to download all of the files... and send in to the bot to -combine... (has to be a better way)
+
+My thoughts on the last point would be to add even more functionality so ACO providers could do like !provide 5 "Yeezy Slots"
+
+The bot would then take the first 5 reactions and DM them and convert all of the profiles given, and then send the file to the provider?
